@@ -71,6 +71,3 @@ def codes_match(telegram_id, stored_code, user_input_code):
     if user_input_hash == stored_code_hash:
         return True
     return False
-
-if __name__ == "__main__":
-    send_email("alejandro.lr@proton.me", "Test email", "This is a test email")
